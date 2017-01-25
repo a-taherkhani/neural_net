@@ -28,7 +28,8 @@
 
 clear all
 close all
-
+test1=1;
+test2=2;
 % fprintf(1,'Converting Raw files into Matlab format \n');
 % converter;
 % 
@@ -37,7 +38,7 @@ close all
 % beta = [0:1/1000:0.5 0.5:1/10000:0.9 0.9:1/100000:1.0];
 % numruns = 100;
 % rand('state',30);
-% randn('state',30);
+
 load ('initial')
 load mnistvh_CD25
 [logZZ_est, logZZ_est_up, logZZ_est_down] = ...
