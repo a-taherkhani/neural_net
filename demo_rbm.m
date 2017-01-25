@@ -28,7 +28,7 @@
 
 clear all
 close all
-
+test=1;
 fprintf(1,'Converting Raw files into Matlab format \n');
 converter;
 
